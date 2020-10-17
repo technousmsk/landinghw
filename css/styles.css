@@ -1,0 +1,497 @@
+body{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.header{
+    position: relative;
+    height: 535px;
+    color: white;
+    background: url(../img/header-background.png) no-repeat center;
+    background-size: 100%;
+    box-shadow: inset 0 0 0 1000px #19197077;
+}
+
+.header-menu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    width: 585px;
+    height: 260px;
+    text-align: center;
+}
+
+ul.header-nav-list li{
+    display: inline;
+    margin-right: 25px;
+    list-style-type: none;
+    align-content: flex-end;
+}
+
+.our-advantages{
+    height: 535px;
+}
+
+.advantages-info{
+    display: flex;
+    width: 1103px;
+    height: 243px;
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+h1{
+    font-size: 46px;
+    line-height: 68px;
+}
+.pink-round{
+    background-color: #FC5C65;
+}
+
+.aqua-round{
+    background-color: #50E3C2;
+}
+
+.purple-round{
+    background-color: #A665FB;
+}
+
+.round{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.info-content{
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.advantage{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantage-title{
+    font-size: 22px;
+}
+
+.advantage-content{
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.graphic-block{
+    height: 704px;
+    background-color: #F8FBFE;
+}
+
+.graphic-back{
+    width: 388px;
+    height: 515px;
+    background: url(../img/graphic-back.png);
+    margin-left: 25px;
+}
+
+.graphic-front{
+    position: absolute;
+    top: 150px;
+    left: 220px;
+    width: 383px;
+    height: 404px;
+    background: url(../img/graphic-front.png);
+    box-shadow: 5px 5px 12px 0;
+    z-index: 50;
+}
+
+.info{
+    width: 436px;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-title{
+    font-size: 38px;
+    line-height: 50px;
+}
+
+.info_content{
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.button{
+    padding: 15px 27px 16px 28px;
+    background: #50E3C2;
+    border-radius: 3px;
+    font-size: 16px;
+    width: 155px;
+}
+
+.button-transparent{
+    background: #50E3C277;
+}
+
+.vertical-line{
+    align-self: flex-end;
+    width: 0;
+    height: 95px;
+    border: 1px solid #E8E8EA;
+}
+
+.header-icon{
+    background: url(../img/header-menu.png);
+    background-size: contain;
+    width: 100px;
+    height: 25px;
+}
+
+.big-pink{
+    background-color: #FC5C6511;
+}
+
+.big-aqua{
+    background-color: #50E3C211;
+}
+
+.big-purple{
+    background-color: #A665FB11;
+}
+
+.big-round{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container-advantages{
+    justify-content: center;
+    align-items: center;
+}
+
+.container-graphic{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-header{
+    align-content: flex-start;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a.button-link{
+    color: black;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    width: 1145px;
+    height: 100%;
+}
+
+.container-opportunity{
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.opportunity-back{
+    width: 383px;
+    height: 355px;
+    background: url(../img/oportunity-back.png);
+}
+
+.opportunity-front{
+    position: absolute;
+    right: 215px;
+    top: -40px;
+    width: 321px;
+    height: 428px;
+    background: url(../img/oportunity-front.png);
+    box-shadow: 5px 5px 12px 0;
+}
+
+.opportunity-block{
+    width: 100%;
+    height: 649px;
+    background-color: #FFFFFF;
+}
+
+.video-block{
+    position: relative;
+    height: 526px;
+    background: initial url(../img/video-block-background.png) no-repeat center;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container-video-block{
+    justify-content: center;
+    align-items: center;
+    color: red;
+
+}
+
+.video-block-background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 0 0 1000px #00000066;
+    background: content-box;
+}
+
+.video-block-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 750px;
+    height: 286px;
+    border-style: solid;
+}
+
+.video-block-title{
+    text-align: center;
+    font-size: 38px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.statistic-block{
+    height: 507px;
+    background: #F8FBFE;
+}
+
+.statistic-block-container{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 520px;
+}
+
+.marketing-block{
+    height: 724px;
+}
+
+.statistic-block-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 750px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+.statistic-block-button{
+    font-size: 12px;
+    line-height: 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E8E8EA;
+    width: 250px;
+    height: 46px;
+    border-radius: 23px;
+    text-align: center;
+}
+
+.statistic-block-button-yearly{
+    background: #50E3C2;
+    width: 126px;
+    height: 38px;
+    border-radius: 23px;
+    margin: 3px;
+}
+
+.statistic-block-button-monthly{
+    width: 126px;
+    height: 38px;
+}
+
+.offer-element{
+    position: absolute;
+    top: -50px;
+    width: 730px;
+    height: 515px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: white;
+}
+
+.offer-name{
+    font-size: 13px;
+    line-height: 32px;
+    color: #878B90;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.offer-price{
+    font-size: 46px;
+    line-height: 60px;
+    font-weight: bold;
+
+}
+
+.offer-content{
+    line-height: 23px;
+    color: #323232;
+    width: 225px;
+}
+
+.offer-list{
+    list-style: none;
+    font-size: 18px;
+    line-height: 32px;
+    align-self: flex-start;
+}
+
+.offer-disabled{
+    text-decoration: line-through;
+    color: #8E8E8E;
+}
+
+ul.offer-list li:before {
+    content: '✓';
+    padding-right: 8px;
+}
+
+.offer-line{
+    width: 100%;
+    height: 4px;
+    border-radius: 23px;
+    background: #FFFFFF;
+}
+
+.pro-line{
+    background: #50E3C2;
+}
+
+.marketing-block-container{
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.offer-cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    height: 480px;
+}
+
+.marketing-block-content{
+    font-size: 16px;
+    line-height: 28px;
+    color: #878B90;
+}
+
+.marketing-block-info{
+    width: 851px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.marketing-block-icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.marketing-block-icon1{
+    background: url(../img/growbots.png);
+}
+
+.marketing-block-icon2{
+    background: url(../img/funnel.png);
+}
+
+.marketing-block-icon3{
+    background: url(../img/digitalocean.png);
+}
+
+.marketing-block-icon4{
+    background: url(../img/sketch.png);
+}
+
+.icon{
+    border-style: solid;
+    height: 42px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video-button-shadow{
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background: dimgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-button{
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 15px solid #50E3C2;
+    border-bottom: 10px solid transparent;
+}
+
+.graphic-element{
+    position: relative;
+}
+
+.opportunity-element{
+    position: relative;
+    height: 297px;
+}
