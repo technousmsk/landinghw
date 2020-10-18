@@ -1,12 +1,62 @@
 @media (min-width: 600px) and (max-width: 1100px){
     .container{
-        display: flex;
-        flex-wrap: wrap;
-        height: 100%;
         flex-direction: column;
+        height: 100%;
     }
 
     .vertical-line{
         display: none;
     }
+
+    .advantages-info{
+        height: 100%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .big-round{
+        margin: 0;
+    }
+
+    .graphic-front{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .opportunity-front{
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+
+    .container-graphic{
+        height: auto;
+    }
+
+    .graphic-block{
+        height: auto;
+    }
+
+    .container-opportunity{
+        height: auto;
+    }
+
+    .opportunity-block{
+        height: auto;
+    }
+
+    .opportunity-element{
+        height: auto;
+    }
+
+    .info{
+        align-items: center;
+    }
+
+    .info-title{
+        text-align: center;
+    }
+
 }

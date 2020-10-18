@@ -117,7 +117,6 @@ h1{
     height: 404px;
     background: url(../img/graphic-front.png);
     box-shadow: 5px 5px 12px 0;
-    z-index: 50;
 }
 
 .info{
