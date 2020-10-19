@@ -1,62 +1,144 @@
-@media (min-width: 600px) and (max-width: 1100px){
-    .container{
+@media (min-width: 600px) and (max-width: 1100px) {
+    .container {
         flex-direction: column;
-        height: 100%;
+        height: auto;
+        align-items: center;
+        width: auto;
     }
 
-    .vertical-line{
+    .vertical-line {
         display: none;
     }
 
-    .advantages-info{
+    .advantages-info {
         height: 100%;
         align-items: center;
         flex-direction: column;
         justify-content: center;
     }
 
-    .big-round{
+    .big-round {
         margin: 0;
     }
 
-    .graphic-front{
+    .graphic-front {
         position: relative;
         top: 0;
         left: 0;
+        box-shadow: none;
     }
 
-    .opportunity-front{
+    .opportunity-front {
         position: relative;
         top: 0;
         right: 0;
+        box-shadow: none;
     }
 
-    .container-graphic{
+    .container-graphic {
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .graphic-block {
         height: auto;
     }
 
-    .graphic-block{
+    .container-opportunity {
         height: auto;
     }
 
-    .container-opportunity{
+    .opportunity-block {
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .opportunity-element {
         height: auto;
     }
 
-    .opportunity-block{
-        height: auto;
-    }
-
-    .opportunity-element{
-        height: auto;
-    }
-
-    .info{
+    .info {
         align-items: center;
     }
 
-    .info-title{
+    .info-title {
         text-align: center;
     }
 
+    .block{
+        display: flex;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+
+    .video-block{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-menu{
+        flex-direction: column;
+    }
+
+    .graphic-element{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .opportunity-element{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header{
+        width: auto;
+        height: 100%;
+    }
+
+    .offer-element{
+        height: auto;
+        flex-direction: column;
+        width: auto;
+        position: relative;
+        top: 0;
+    }
+
+    .container-video-block{
+        height: 100%;
+    }
+
+    .pro-line{
+        margin-top: 20px;
+    }
+
+    .header-info{
+        height: auto;
+    }
+
+    .container-advantages{
+        width: auto;
+    }
+
+    .advantages-info{
+        width: auto;
+    }
+
+    .marketing-block-container{
+        width: auto;
+    }
+
+    .marketing-block-icons{
+        width: border-box;
+    }
+
+    .marketing-block-info{
+        width: auto;
+        height: auto;
+    }
 }
