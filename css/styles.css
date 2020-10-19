@@ -272,7 +272,7 @@ a.button-link{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 750px;
+    max-width: 750px;
     height: 286px;
     top: 0;
 }
@@ -304,7 +304,7 @@ a.button-link{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 750px;
+    max-width: 750px;
     height: 280px;
     text-align: center;
     align-items: center;
