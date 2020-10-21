@@ -497,3 +497,268 @@ ul.offer-list li:before {
     position: relative;
     height: 297px;
 }
+
+.reviews-element{
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #E8E8EA;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 405px;
+}
+
+.reviews-cart{
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid #E8E8EA;
+}
+
+.reviews-cart-quotes{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 98px;
+    line-height: 119px;
+    letter-spacing: -0.1px;
+    color: #DBE4F1;
+}
+
+.reviews-cart-content{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.1px;
+    color: #000000;
+}
+.reviews-cart-avatar{
+    background-image: url("../img/review-cart-avatar.png");
+    background-size: cover;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+}
+
+.reviews-cart-name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+    color: #323232;
+}
+
+.reviews-cart-from{
+    display: flex;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+    color: #323232;
+}
+
+.reviews-cart-name-form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.reviews-cart-user{
+    display: inline-flex;
+}
+
+.avatar2{
+    background-image: url("../img/review-cart-avatar2.png");
+}
+
+.avatar3{
+    background-image: url("../img/review-cart-avatar3.png");
+}
+
+.reviews-element:last-child{
+    border: none;
+}
+
+.reviews-trial-offer{
+    display: flex;
+}
+
+.reviews-offer{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 50px;
+    letter-spacing: -0.221053px;
+    color: #000000;
+}
+
+.reviews-container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 700px;
+}
+
+.reviews-button{
+    margin-left: 40px;
+}
+
+.registration-container{
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration-instruction{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.3px;
+}
+
+.input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.registration-form{
+    width: 558px;
+    height: 515px;
+    left: 524px;
+    top: 4884px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8EA;
+    box-sizing: border-box;
+    box-shadow: 0 22px 54px rgba(67, 87, 138, 0.29);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+
+.attach{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.registration-btn{
+    background: #50E3C277;
+    border-radius: 3px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0F3D33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.attach-btn{
+    margin-right: -120px;
+}
+.attach-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.3px;
+    color: #323232;
+}
+
+.footer{
+    background: #878B90;
+    color: #F8FBFE;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.footer-container{
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.footer-element{
+    display: flex;
+    margin: 37px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-element-about{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.element-item{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 34px;
+    margin-bottom: 12px;
+}
+
+.element-name{
+    padding-bottom: 23px;
+    padding-top: 37px;
+    font-size: 14px;
+    line-height: 32px;
+    color: #DBE4F1;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-info-item{
+    flex: 1;
+}
+
+.footer-nav{
+    display: flex;
+}
+
+.footer-nav-item{
+    margin-right: 30px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-links-item{
+    width: 16px;
+    height: 16px;
+    background-image: url("../img/twitter icon.jpg");
+    background-size: cover;
+}
+
+.links-item2{
+
+}
+
+.links-item3{
+
+}
+.svg-icon{
+    fill: white;
+}
