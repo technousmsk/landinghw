@@ -8,7 +8,7 @@ body{
     height: 535px;
     color: white;
     background: url(../img/header-background.png) no-repeat center;
-    background-size: 100%;
+    background-size: cover;
     box-shadow: inset 0 0 0 1000px #19197077;
 }
 
@@ -260,6 +260,8 @@ a.button-link{
     top: 0;
     width: 100%;
     background: rgba(0, 0, 0, .6);
+    pointer-events: initial;
+
 }
 
 .video-block-background{
@@ -606,6 +608,9 @@ ul.offer-list li:before {
     margin-left: 40px;
 }
 
+.registration{
+    background: #F8FBFE;
+}
 .registration-container{
     flex-direction: column;
     align-items: center;
@@ -668,7 +673,37 @@ ul.offer-list li:before {
 }
 
 .attach-btn{
-    margin-right: -120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 130px;
+    height: 35px;
+    background: #F2F5F8;
+    border-radius: 3px;
+}
+
+.attach-input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.attach-btn-icon{
+    width: 13px;
+    height: 15px;
+    background-image: url("../img/object.svg");
+    background-size: cover;
+}
+.attach-btn-text{
+    font-size: 14px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.3px;
+    color: #323232;
+    margin-left: 8px;
 }
 .attach-text{
     font-style: normal;
@@ -682,7 +717,7 @@ ul.offer-list li:before {
 }
 
 .footer{
-    background: #878B90;
+    background: linear-gradient(315.06deg, #152649 5%, #4F525C 100%);
     color: #F8FBFE;
     font-size: 12px;
     line-height: 18px;
@@ -748,17 +783,15 @@ ul.offer-list li:before {
 .footer-links-item{
     width: 16px;
     height: 16px;
-    background-image: url("../img/twitter icon.jpg");
+    background-image: url("../img/twitter icon.svg");
     background-size: cover;
+    margin-left: 15px;
 }
 
 .links-item2{
-    background-image: url("../img/f icon.png");
+    background-image: url("../img/f icon.svg");
 }
 
 .links-item3{
-    background-image: url("../img/new-google-google-google-2015-g-icon.svg");
-}
-.svg-icon{
-    fill: white;
+    background-image: url("../img/g icon.svg");
 }
