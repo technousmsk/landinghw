@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie.ogv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
       <workItem from="1603109398262" duration="2658000" />
       <workItem from="1603113150484" duration="1051000" />
       <workItem from="1603149259652" duration="1826000" />
-      <workItem from="1603261195306" duration="15854000" />
+      <workItem from="1603261195306" duration="17210000" />
     </task>
     <servers />
   </component>

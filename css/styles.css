@@ -753,11 +753,11 @@ ul.offer-list li:before {
 }
 
 .links-item2{
-
+    background-image: url("../img/f icon.png");
 }
 
 .links-item3{
-
+    background-image: url("../img/new-google-google-google-2015-g-icon.svg");
 }
 .svg-icon{
     fill: white;
