@@ -260,7 +260,7 @@ a.button-link{
     top: 0;
     width: 100%;
     background: rgba(0, 0, 0, .6);
-    pointer-events: initial;
+    pointer-events: none;
 
 }
 
@@ -500,6 +500,7 @@ ul.offer-list li:before {
     height: 297px;
 }
 
+
 .reviews-element{
     display: flex;
     background: #FFFFFF;
@@ -609,7 +610,7 @@ ul.offer-list li:before {
 }
 
 .registration{
-    background: #F8FBFE;
+    background: linear-gradient(to bottom, #F8F8FE 10%,  #E5E5E5 75%)
 }
 .registration-container{
     flex-direction: column;
@@ -730,7 +731,7 @@ ul.offer-list li:before {
 
 .footer-element{
     display: flex;
-    margin: 37px;
+    margin: 37px 0;
     width: 100%;
     justify-content: space-between;
 }
@@ -739,6 +740,7 @@ ul.offer-list li:before {
     display: flex;
     flex-direction: column;
     flex: 1;
+    min-width: 165px;
 }
 
 .element-item{
@@ -759,15 +761,11 @@ ul.offer-list li:before {
 
 .footer-info{
     display: flex;
-    justify-content: space-between;
     width: 100%;
 }
 
 .footer-info-item{
     flex: 1;
-}
-
-.footer-nav{
     display: flex;
 }
 
@@ -776,22 +774,21 @@ ul.offer-list li:before {
 }
 
 .footer-links{
-    display: flex;
     justify-content: flex-end;
 }
 
 .footer-links-item{
     width: 16px;
     height: 16px;
-    background-image: url("../img/twitter icon.svg");
+    background-image: url("../img/twitter icon.png");
     background-size: cover;
     margin-left: 15px;
 }
 
 .links-item2{
-    background-image: url("../img/f icon.svg");
+    background-image: url("../img/f icon.png");
 }
 
 .links-item3{
-    background-image: url("../img/g icon.svg");
+    background-image: url("../img/g icon.png");
 }

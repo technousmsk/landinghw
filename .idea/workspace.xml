@@ -5,9 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/new-google-google-google-2015-g-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/twitter icon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/f icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/f icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/f icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/g icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/twitter icon.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +49,7 @@
       <workItem from="1603149259652" duration="1826000" />
       <workItem from="1603261195306" duration="17210000" />
       <workItem from="1603279199593" duration="9152000" />
+      <workItem from="1603310448624" duration="10759000" />
     </task>
     <servers />
   </component>
