@@ -88,6 +88,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: auto;
     }
 
     .opportunity-element{
@@ -206,5 +207,199 @@
     }
     .video-block-info{
         font-size: 14px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 500px){
+    h1{
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .info-content{
+        font-size: 0.9rem;
+    }
+    .button{
+        width: 95%;
+        padding: 8px 15px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .graphic-front{
+        width: 280px;
+        height: 300px;
+    }
+    .graphic-back{
+        width: 268px;
+        height: 350px;
+        margin: 20px 0;
+    }
+
+    .info{
+        width: 280px;
+        height: auto;
+    }
+
+    .info-title{
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .info_content{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .opportunity-back{
+        width: 270px;
+        height: 250px;
+    }
+    .opportunity-front{
+        width: 250px;
+        height: 260px;
+        margin: 20px 0;
+    }
+    .video-button-shadow{
+        width: 40px;
+        height: 40px;
+    }
+    .video-block-title{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .video-block-info{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .video-button{
+        border-top: 7px solid transparent;
+        border-left: 8px solid #50E3C2;
+        border-bottom: 7px solid transparent;
+    }
+    .statistic-block-button{
+        width: 210px;
+        height: 43px;
+    }
+    .statistic-button{
+        width: 104px;
+        height: 32px;
+        font-size: 10px;
+        line-height: 22px;
+    }
+    .offer{
+        width: 290px;
+    }
+
+    .marketing-block-icons{
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .icon{
+        width: 120px;
+        height: 25px;
+    }
+
+    .marketing-block-content{
+        font-size: 12px;
+        text-align: center;
+    }
+    .registration-instruction{
+        font-size: 24px;
+        line-height: 35px;
+        margin: 15px 0;
+    }
+    .registration-form{
+        width: 270px;
+        height: 270px;
+        padding: 20px;
+    }
+
+    .input{
+        height: 25px;
+        margin-bottom: 10px;
+        padding-left: 5px;
+    }
+    .attach{
+        height: 25px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+    .attach-text{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .attach-btn{
+        width: 120px;
+        height: 25px;
+    }
+    .attach-btn-text{
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .reviews-offer{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .reviews-button{
+        margin: 0;
+        font-weight: bold;
+    }
+    .footer-nav-item{
+        margin: 0;
+    }
+    .footer-nav{
+        justify-content: space-around;
+    }
+    .element-item{
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 8px;
+    }
+    .element-name{
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 12px;
+    }
+    .footer-element{
+        margin: 10px 0;
+    }
+    .advantage-title{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .advantage-content{
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .reviews-cart-quotes{
+        font-size: 76px;
+    }
+    .reviews-cart-content{
+        font-size: 14px;
+    }
+    .offer-price{
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .offer-content{
+        line-height: 18px;
+        font-size: 12px;
+    }
+    .offer-list{
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .offer-comment{
+        font-size: 12px;
+    }
+    .offer-name{
+        font-size: 11px;
+    }
+    .offer-cart{
+        height: 380px;
     }
 }
