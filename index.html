@@ -7,12 +7,29 @@
     <title>Berlin</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-    <div class="header block">
+    <div class="header block" id="home">
             <div class="container container-header">
                 <div class="header-menu">
-                    <a href=""><div class="header-icon"></div></a>
+                    <a href="#home"><div class="header-icon"></div></a>
                     <div class="header-nav">
                         <ul class="header-nav-list">
                             <li><a href="">Demos</a></li>
@@ -24,7 +41,7 @@
                 <div class="header-info">
                     <h1>Manage your team, faster!</h1>
                     <p class="info-content">Create custom landing pages with Berlin that convert more visitors than any website.</p>
-                    <a class="button-link" href=""><div class="button">Start free 14 days trial</div>
+                    <a class="button-link" href="#trial-form"><div class="button">Start free 14 days trial</div>
                     </a>
                     <p>No credit card required</p>
                 </div>
@@ -64,12 +81,12 @@
             <div class="graphic-info info">
                 <h2 class="graphic-info-title info-title">Manage everything faster in single place.</h2>
                 <p class="graphic-info-content info_content">Create custom landing pages with Berlin that convert more visitors than any website. With lots of unique blocks, you can easily build a page without coding.</p>
-                <a class="button-link" href="">
+                <a class="button-link" href="#trial-form">
                     <div class="button button-transparent">Start free 14 days trial</div>
                 </a>
             </div>
-    </div>
         </div>
+    </div>
     <div class="opportunity-block block">
         <div class="container container-opportunity">
             <div class="opportunity-element">
@@ -79,7 +96,7 @@
             <div class="opportunity-info info">
                 <h2 class="opportunity-info-title info-title">Build better team work faster and better</h2>
                 <p class="opportunity_info-content info_content">Create custom landing pages with Berlin that convert more visitors than any website. With lots of unique blocks, you can easily build a page without coding.</p>
-                <a class="button-link" href="">
+                <a class="button-link" href="#trial-form">
                 <div class="button-transparent button">Start free 14 days trial</div>
                 </a>
             </div>
@@ -135,7 +152,7 @@
                                 <li class="offer-disabled">Unlimited Emails</li>
                             </ul>
                         </div>
-                        <a class="btn" href=""><div class="offer-button button">Start free 14 days trial</div></a>
+                        <a class="btn" href="#trial-form"><div class="offer-button button">Start free 14 days trial</div></a>
                         <div class="offer-comment">No credit card required</div>
                     </div>
                 </div>
@@ -155,7 +172,7 @@
                                 <li>Unlimited Emails</li>
                             </ul>
                         </div>
-                        <a class="btn" href=""><div class="offer-button button">Start free 14 days trial</div></a>
+                        <a class="btn" href="#trial-form"><div class="offer-button button">Start free 14 days trial</div></a>
                         <div class="offer-comment">No credit card required</div>
                     </div>
                 </div>
@@ -210,13 +227,15 @@
             </div>
             <div class="reviews-trial-offer">
                 <div class="reviews-offer">Manage your team in one place</div>
-                <div class="reviews-button button">Start free 14 days trial</div>
+                <a href="#trial-form" class="btn">
+                    <div class="reviews-button button">Start free 14 days trial</div>
+                </a>
             </div>
      </div>
      </div>
     <div class="registration block">
         <div class="registration-container container">
-            <div class="registration-instruction">Please leave your request</div>
+            <div class="registration-instruction" id="trial-form">Please leave your request</div>
             <div class="registration-form">
                 <form action="">
                     <div><input name="first-name" type="text" class="input" placeholder="First name" required></div>
