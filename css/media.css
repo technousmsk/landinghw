@@ -81,7 +81,9 @@
     }
 
     .header-menu{
-        flex-direction: column;
+
+        width: max-content;
+
     }
 
     .graphic-element{
@@ -100,6 +102,13 @@
     .header{
         width: auto;
         height: 100vh;
+    }
+
+    .container-header{
+        height: 100%;
+        justify-content: center;
+        flex-direction: row;
+        align-items: flex-start;
     }
 
     .offer-element{
@@ -124,6 +133,7 @@
     .header-info{
         height: auto;
         width: auto;
+        align-self: center;
     }
 
     .container-advantages{
@@ -223,6 +233,10 @@
     h1{
         font-size: 28px;
         line-height: 30px;
+    }
+
+    .header-menu{
+        flex-direction: column;
     }
 
     .info-content{
