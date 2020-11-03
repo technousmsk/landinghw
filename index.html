@@ -104,7 +104,7 @@
     </div>
     <div class="video-block block">
         <div class="video-block-background">
-            <video controls="controls" height="100%" width="100%" poster="img/video-block-background.png">
+            <video class="videoRabbit" controls="controls" height="100%" width="100%" poster="img/video-block-background.png">
                 <source src="video/movie.ogv">
             </video>
         </div>
@@ -128,8 +128,8 @@
 
             </div>
             <div class="statistic-block-button">
-                <div class="statistic-block-button-monthly statistic-button">monthly</div>
-                <div class="statistic-block-button-yearly statistic-button">yearly</div>
+                <div data-offername="choosedPlan" class="statistic-button">monthly</div>
+                <div class="statistic-button statistic-button_active">yearly</div>
             </div>
         </div>
     </div>
@@ -157,7 +157,7 @@
                     </div>
                 </div>
                 <div class="offer-pro-element offer">
-                    <div class="offer-line pro-line"></div>
+                    <div class="offer-line offer_active"></div>
                     <div class="offer-pro offer-cart">
                         <div class="offer-name">pro</div>
                         <div class="offer-price">
@@ -305,5 +305,6 @@
             </div>
         </div>
     </div>
+    <script src="js/main-js.js"></script>
 </body>
 </html>
