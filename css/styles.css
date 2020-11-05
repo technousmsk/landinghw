@@ -368,7 +368,8 @@ a.button-link{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #F8FBFE
+    background: #F8FBFE;
+    cursor: pointer;
 }
 
 .statistic-button_active{
@@ -512,6 +513,7 @@ ul.offer-list li:before {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .video-button{
