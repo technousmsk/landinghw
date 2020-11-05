@@ -291,14 +291,15 @@ a.button-link{
     position: absolute;
     top: 0;
     width: 100%;
-    background: rgba(0, 0, 0, .6);
+    box-shadow: inset 0 0 0 1000px #222D3D77;
+    background-image: url("../img/video-block-background.png") center;
 }
 
 .video-block-background{
     width: 100%;
     height: 100%;
 }
-.videoRabbit{
+#videoRabbit{
     object-fit: fill;
 }
 .video-block-info{

@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1e979e11-df28-4a34-8d38-fdb8772f2ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main-js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main-js.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +69,8 @@
       <workItem from="1604391650838" duration="7739000" />
       <workItem from="1604485204040" duration="618000" />
       <workItem from="1604514309888" duration="6849000" />
+      <workItem from="1604570312551" duration="4328000" />
+      <workItem from="1604575560951" duration="732000" />
     </task>
     <servers />
   </component>
@@ -80,5 +82,9 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="499" y="171" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1604360497580" />
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1604573475546">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1604573475546" />
   </component>
 </project>

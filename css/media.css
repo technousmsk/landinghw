@@ -121,6 +121,7 @@
 
     .container-video-block{
         height: 100%;
+        width: 100%;
     }
 
     .offer-pro-element{
@@ -237,6 +238,7 @@
 
     .header-menu{
         flex-direction: column;
+        height: auto;
     }
 
     .info-content{

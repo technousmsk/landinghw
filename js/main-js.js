@@ -7,7 +7,11 @@ window.addEventListener('scroll', function (e) {
     } else {
         headerMenuBackground.style.opacity = '0';
     }
+    if (offsetFromTop > 0) {
+        headerMenuBackground.style.border = 'solid 1px black'
+    }
 })
+
 
 document.querySelector('.video-button-shadow').addEventListener('click', function (e) {
     document.querySelector('.container-video-block').style.display = 'none';
@@ -17,7 +21,7 @@ document.querySelector('.video-button-shadow').addEventListener('click', functio
 const buttons = document.querySelectorAll('.statistic-button');
 const offers = document.querySelectorAll('.offer');
 for (let i = 0; i < buttons.length; i++) {
-    buttons[i].onclick = function (event) { //TODO replace onclick with addEventListener
+    buttons[i].onclick = function (event) { //TODO replace with addEventListener
         for (let j = 0; j < buttons.length; j++) {
             buttons[j].classList.remove('statistic-button_active');
             offers[j].classList.remove('offer_active');
