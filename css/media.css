@@ -168,6 +168,8 @@
         height: auto;
         align-items: center;
         border: none;
+        justify-content: center;
+        align-content: center;
     }
     .registration-container{
         height: auto;
@@ -228,17 +230,28 @@
         font-size: 14px;
         justify-content: space-around;
     }
+    h1{
+        font-size: 36px;
+    }
+    .info_content{
+        text-align: center;
+    }
 }
 
 @media (max-width: 500px){
     h1{
-        font-size: 28px;
+        font-size: 22px;
         line-height: 30px;
     }
 
     .header-menu{
         flex-direction: column;
         height: auto;
+    }
+
+    .header-menu-content{
+        display: flex;
+        flex-direction: column;
     }
 
     .info-content{

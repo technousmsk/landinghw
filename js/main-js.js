@@ -33,3 +33,30 @@ for (let i = 0; i < buttons.length; i++) {
         this.classList.add('statistic-button_active');
     };
 }
+
+let allvaluti;   // все валююты
+fetch('https://developerhub.alfabank.by:8273/partner/1.0.0/public/nationalRates')
+    .then(response => response.json())
+    .then(currentExchange => {
+        allvaluti = currentExchange
+        // .then(currentExchange => console.log('currentExchange', currentExchange));
+        // console.log("status: " +JSON.parse(JSON.stringify()));
+
+
+        const valuta = {
+            usd: {},
+            eur: {},
+            rub: {}
+
+        };
+        console.log('allvaluti', allvaluti);
+        valuta.usd = allvaluti.rates.find((rate) => rate.iso == 'USD')
+        valuta.eur = allvaluti.rates.find((rate) => rate.iso == 'EUR')
+        valuta.rub = allvaluti.rates.find((rate) => rate.iso == 'RUB')
+
+        document.querySelector('.currency-usd').innerHTML = valuta.usd.rate;
+        document.querySelector('.currency-eur').innerHTML = valuta.eur.rate;
+        document.querySelector('.currency-rub').innerHTML = valuta.rub.rate;
+        console.log(valuta);
+
+    });
