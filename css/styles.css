@@ -10,7 +10,7 @@ body{
     color: white;
     background: url(../img/header-background.png) no-repeat center;
     background-size: cover;
-    box-shadow: inset 0 0 0 1000px #19197077;
+    box-shadow: inset 0 0 0 1000px #15264990, inset 0 0 0 1000px #4F525C66;
 }
 
 .header-menu{
@@ -79,18 +79,18 @@ ul.header-nav-list li{
 
 h1{
     font-size: 46px;
-    line-height: 68px;
+    line-height: 50px;
     margin: 0;
 }
-.pink-round{
+.round_pink{
     background-color: #FC5C65;
 }
 
-.aqua-round{
+.round_aqua{
     background-color: #50E3C2;
 }
 
-.purple-round{
+.round_purple{
     background-color: #A665FB;
 }
 
@@ -103,6 +103,8 @@ h1{
 .info-content{
     font-size: 20px;
     line-height: 34px;
+    max-width: 580px;
+    text-align: center;
 }
 
 .advantage{
@@ -164,19 +166,25 @@ h1{
     line-height: 32px;
     text-align: left;
 }
+.statistic-block-content{
+    text-align: center;
+}
 
 #video-info{
     text-align: center;
 }
 
 .button{
-    padding: 10px 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #50E3C2;
     border-radius: 3px;
     font-size: 16px;
     width: 227px;
     font-weight: 600;
     color: #0F3D33;
+    height: 50px;
 }
 
 .button-transparent{
@@ -198,19 +206,19 @@ h1{
     height: 25px;
 }
 
-.big-pink{
+.round-big_pink{
     background-color: #FC5C6511;
 }
 
-.big-aqua{
+.round-big_aqua{
     background-color: #50E3C211;
 }
 
-.big-purple{
+.round-big_purple{
     background-color: #A665FB11;
 }
 
-.big-round{
+.round-big{
     display: flex;
     width: 50px;
     height: 50px;
@@ -231,7 +239,8 @@ h1{
 
 .container-header{
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
 }
 
 a{
@@ -248,6 +257,7 @@ a.button-link{
     display: flex;
     width: 1145px;
     height: 100%;
+    margin: 0 auto;
 }
 
 .container-opportunity{
@@ -285,26 +295,19 @@ a.button-link{
     height: 526px;
 }
 
-.block{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
 .container-video-block{
     justify-content: center;
     align-items: center;
     color: white;
+}
+.video-shadow{
     position: absolute;
     top: 0;
     width: 100%;
     box-shadow: inset 0 0 0 1000px #222D3D77;
-}
-
-.video-block-background{
-    width: 100%;
     height: 100%;
 }
+
 #videoRabbit{
     object-fit: fill;
 }
@@ -399,6 +402,7 @@ a.button-link{
     align-items: flex-start;
     justify-content: space-between;
     background: white;
+
 }
 
 .offer-name{
@@ -436,8 +440,8 @@ a.button-link{
 }
 
 ul.offer-list li:before {
-    content: '✓';
     padding-right: 8px;
+    list-style: url("../img/path.png");
 }
 
 .offer-line{
@@ -462,8 +466,9 @@ ul.offer-list li:before {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-self: center;
     height: 480px;
+    padding-left: 48px;
+    padding-right: 50px;
 }
 
 .marketing-block-content{
@@ -487,24 +492,28 @@ ul.offer-list li:before {
     justify-content: space-between;
 }
 
-.marketing-block-icon1{
+
+.marketing-logo_growbots{
     background: url(../img/growbots.png);
+    height: 35px;
 }
 
-.marketing-block-icon2{
+.marketing-logo_funnel{
     background: url(../img/funnel.png);
+    height: 42px;
 }
 
-.marketing-block-icon3{
+.marketing-logo_digitalocean{
     background: url(../img/digitalocean.png);
+    height: 39px;
 }
 
-.marketing-block-icon4{
+.marketing-logo_sketch{
     background: url(../img/sketch.png);
+    height: 39px;
 }
 
 .icon{
-    height: 42px;
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -532,6 +541,7 @@ ul.offer-list li:before {
 
 .graphic-element{
     position: relative;
+    max-width: 620px;
 }
 
 .opportunity-element{
@@ -672,11 +682,12 @@ ul.offer-list li:before {
     letter-spacing: -0.3px;
 }
 
-.input{
+.registration-form input{
     width: 100%;
     height: 50px;
     margin-bottom: 20px;
     padding-left: 10px;
+    color: #323232;
 }
 .registration-form{
     width: 558px;
@@ -706,12 +717,11 @@ ul.offer-list li:before {
 }
 
 .registration-btn{
-    background: #50E3C277;
+    max-width: 458px;
+    min-height: 50px;
     border-radius: 3px;
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 19px;
     color: #0F3D33;
     display: flex;
     justify-content: center;
@@ -775,7 +785,7 @@ ul.offer-list li:before {
 
 .footer-container{
     flex-direction: column;
-    margin-bottom: 30px;
+
 }
 
 .footer-element{
@@ -789,23 +799,28 @@ ul.offer-list li:before {
     display: flex;
     flex-direction: column;
     flex: 1;
-    min-width: 165px;
+    min-width: 235px;
 }
 
-.element-item{
-    font-style: normal;
-    font-weight: normal;
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-list li{
     font-size: 16px;
     line-height: 34px;
     margin-bottom: 12px;
 }
-
 .element-name{
     padding-bottom: 23px;
     padding-top: 37px;
     font-size: 14px;
     line-height: 32px;
     color: #DBE4F1;
+    opacity: 0.7;
 }
 
 .footer-info{
@@ -816,6 +831,8 @@ ul.offer-list li:before {
 .footer-info-item{
     flex: 1;
     display: flex;
+    flex-direction: row;
+
 }
 
 .footer-nav-item{
@@ -824,6 +841,8 @@ ul.offer-list li:before {
 
 .footer-links{
     justify-content: flex-end;
+    display: flex;
+    gap: revert;
 }
 
 .footer-links-item{

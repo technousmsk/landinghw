@@ -17,7 +17,7 @@
         justify-content: center;
     }
 
-    .big-round {
+    .round-big {
         margin: 0;
     }
 
@@ -65,13 +65,7 @@
         text-align: center;
     }
 
-    .block{
-        display: flex;
-        width: auto;
-        align-items: center;
-        justify-content: center;
-        height: auto;
-    }
+
 
     .video-block{
         width: auto;
@@ -81,9 +75,7 @@
     }
 
     .header-menu{
-
         width: 100%;
-
     }
 
     .graphic-element{
@@ -107,8 +99,7 @@
     .container-header{
         height: 100%;
         justify-content: center;
-        flex-direction: row;
-        align-items: flex-start;
+        width: 97%;
     }
 
     .offer-element{
@@ -258,10 +249,10 @@
         font-size: 0.9rem;
     }
     .button{
-        width: 95%;
-        padding: 8px 15px;
+        width: 90%;
+        height: 90%;
+        padding: 8px 10px;
         font-size: 12px;
-        text-align: center;
     }
 
     .graphic-front{
@@ -269,8 +260,8 @@
         height: 300px;
     }
     .graphic-back{
-        width: 268px;
-        height: 350px;
+        width: 280px;
+        height: 360px;
         margin: 20px 0;
     }
 
@@ -366,7 +357,7 @@
         margin-right: 30px;
     }
 
-    .input{
+    .registration-form input{
         height: 25px;
         margin-bottom: 10px;
         padding-left: 5px;
@@ -400,7 +391,7 @@
     .footer-nav{
         justify-content: space-around;
     }
-    .element-item{
+    .footer-list li{
         font-size: 14px;
         line-height: 20px;
         margin: 15px 0;
@@ -409,10 +400,6 @@
         font-size: 12px;
         line-height: 12px;
         margin: 0;
-    }
-    .footer-element{
-        margin: 10px 0;
-        justify-content: center;
     }
     .footer-element-about{
         min-width: 95px;

@@ -15,6 +15,7 @@ window.addEventListener('scroll', function (e) {
 
 document.querySelector('.video-button-shadow').addEventListener('click', function (e) {
     document.querySelector('.container-video-block').style.display = 'none';
+    document.querySelector('.video-shadow').style.display = 'none'
     document.querySelector('#videoRabbit').play();
 });
 
