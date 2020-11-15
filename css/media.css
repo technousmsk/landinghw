@@ -195,9 +195,9 @@
         flex-direction: column;
         gap: 25px;
     }
-    .footer-info-item{
-        justify-content: center;
-    }
+   #corporationInfo{
+       justify-content: center;
+   }
     .footer-menu{
         flex-wrap: wrap;
         height: auto;
@@ -208,6 +208,7 @@
     }
     .footer-links{
         gap: 30px;
+        justify-content: center;
     }
     .video-button-shadow{
         width: 80px;
@@ -228,6 +229,11 @@
     }
     .statistic-block{
         height: auto;
+    }
+    .footer-nav{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
     }
 }
 
@@ -355,8 +361,7 @@
         width: 95%;
         height: 270px;
         padding: 20px;
-        margin-left: 30px;
-        margin-right: 30px;
+
     }
 
     .registration-form input{
@@ -390,9 +395,6 @@
         font-weight: bold;
     }
 
-    .footer-nav{
-        justify-content: space-around;
-    }
     .footer-list li{
         font-size: 14px;
         line-height: 20px;
@@ -445,5 +447,8 @@
     }
     .offer-cart{
         height: 380px;
+    }
+    .registration-btn{
+        height: 30px;
     }
 }

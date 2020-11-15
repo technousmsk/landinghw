@@ -436,6 +436,7 @@ a.button-link{
 
 .offer-list{
     list-style-image: url("../img/path.png");
+    list-style-type: none;
     font-size: 18px;
     line-height: 32px;
     align-self: flex-start;
@@ -474,7 +475,7 @@ a.button-link{
     flex-direction: column;
     justify-content: space-between;
     height: 480px;
-    padding: 0 50px;
+    padding-left: 50px;
 }
 
 .marketing-block-content{
@@ -724,7 +725,7 @@ a.button-link{
 
 .registration-btn{
     max-width: 458px;
-    min-height: 50px;
+    height: 50px;
     border-radius: 3px;
     font-weight: 600;
     font-size: 16px;
@@ -838,11 +839,11 @@ a.button-link{
     flex: 1;
     display: flex;
     flex-direction: row;
-
 }
 
-.footer-nav-item{
-    margin-right: 30px;
+.footer-nav{
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer-links{

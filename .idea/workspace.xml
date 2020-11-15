@@ -5,11 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/f icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/g icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/twitter icon.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main-js.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +95,8 @@
       <workItem from="1605287527424" duration="2106000" />
       <workItem from="1605299026518" duration="2763000" />
       <workItem from="1605353235288" duration="1706000" />
-      <workItem from="1605397421370" duration="4318000" />
+      <workItem from="1605397421370" duration="5203000" />
+      <workItem from="1605404554991" duration="1711000" />
     </task>
     <servers />
   </component>
