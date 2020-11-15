@@ -22,7 +22,7 @@ document.querySelector('.video-button-shadow').addEventListener('click', functio
 const buttons = document.querySelectorAll('.statistic-button');
 const offers = document.querySelectorAll('.offer');
 for (let i = 0; i < buttons.length; i++) {
-    buttons[i].onclick = function (event) { //TODO replace with addEventListener
+    buttons[i].addEventListener('click', function (event) { //TODO replace with addEventListener
         for (let j = 0; j < buttons.length; j++) {
             buttons[j].classList.remove('statistic-button_active');
             offers[j].classList.remove('offer_active');
@@ -32,32 +32,32 @@ for (let i = 0; i < buttons.length; i++) {
         const choosedElement = document.querySelector(choosedClass);
         choosedElement.classList.add('offer_active');
         this.classList.add('statistic-button_active');
-    };
-}
+    });
+};
 
-let allvaluti;   // все валююты
+let exchangeRates;
 fetch('https://developerhub.alfabank.by:8273/partner/1.0.0/public/nationalRates')
     .then(response => response.json())
     .then(currentExchange => {
-        allvaluti = currentExchange
+        exchangeRates = currentExchange
         // .then(currentExchange => console.log('currentExchange', currentExchange));
         // console.log("status: " +JSON.parse(JSON.stringify()));
 
 
-        const valuta = {
+        const exchange = {
             usd: {},
             eur: {},
             rub: {}
 
         };
-        console.log('allvaluti', allvaluti);
-        valuta.usd = allvaluti.rates.find((rate) => rate.iso == 'USD')
-        valuta.eur = allvaluti.rates.find((rate) => rate.iso == 'EUR')
-        valuta.rub = allvaluti.rates.find((rate) => rate.iso == 'RUB')
+        console.log('exchangeRates', exchangeRates);
+        exchange.usd = exchangeRates.rates.find((rate) => rate.iso == 'USD')
+        exchange.eur = exchangeRates.rates.find((rate) => rate.iso == 'EUR')
+        exchange.rub = exchangeRates.rates.find((rate) => rate.iso == 'RUB')
 
-        document.querySelector('.currency-usd').innerHTML = valuta.usd.rate;
-        document.querySelector('.currency-eur').innerHTML = valuta.eur.rate;
-        document.querySelector('.currency-rub').innerHTML = valuta.rub.rate;
-        console.log(valuta);
+        document.querySelector('.currency-usd').innerHTML = '1 $=' + exchange.usd.rate;
+        document.querySelector('.currency-eur').innerHTML = '1 €=' + exchange.eur.rate;
+        document.querySelector('.currency-rub').innerHTML = '100 ₽=' + exchange.rub.rate;
+        console.log(exchange);
 
     });

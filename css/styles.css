@@ -65,7 +65,7 @@ ul.header-nav-list li{
 }
 
 .our-advantages{
-    height: 535px;
+    min-height: 535px;
 }
 
 .advantages-info{
@@ -151,7 +151,7 @@ h1{
 
 .info{
     width: 436px;
-    height: 345px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
 }
@@ -255,7 +255,7 @@ a.button-link{
 
 .container{
     display: flex;
-    width: 1145px;
+    max-width: 1145px;
     height: 100%;
     margin: 0 auto;
 }
@@ -287,7 +287,7 @@ a.button-link{
 .opportunity-block{
     width: 100%;
     height: 649px;
-    background-color: #FFFFFF;
+    background-color:  #F8FBFE;
 }
 
 .video-block{
@@ -341,7 +341,7 @@ a.button-link{
 }
 
 .marketing-block{
-    height: 724px;
+    min-height: 724px;
 }
 
 .statistic-block-info{
@@ -413,11 +413,19 @@ a.button-link{
     font-weight: bold;
 }
 
-.offer-price{
+.offer-price {
     font-size: 46px;
     line-height: 60px;
     font-weight: bold;
-
+    display: flex;
+    align-items: baseline;
+}
+.sub{
+    font-size: 17px;
+}
+.sup{
+    font-size: 30px;
+    align-self: flex-start;
 }
 
 .offer-content{
@@ -427,22 +435,20 @@ a.button-link{
 }
 
 .offer-list{
-    list-style: none;
+    list-style-image: url("../img/path.png");
     font-size: 18px;
     line-height: 32px;
     align-self: flex-start;
-    margin-left: -40px;
+    padding: 0;
+    margin: 20px;
 }
 
-.offer-disabled{
+.offer-list-disabled{
     text-decoration: line-through;
     color: #8E8E8E;
+    list-style-image: url("../img/path_disabled.png");
 }
 
-ul.offer-list li:before {
-    padding-right: 8px;
-    list-style: url("../img/path.png");
-}
 
 .offer-line{
     width: 100%;
@@ -460,6 +466,7 @@ ul.offer-list li:before {
     justify-content: flex-end;
     align-items: center;
     position: relative;
+    min-height: 600px;
 }
 
 .offer-cart{
@@ -467,8 +474,7 @@ ul.offer-list li:before {
     flex-direction: column;
     justify-content: space-between;
     height: 480px;
-    padding-left: 48px;
-    padding-right: 50px;
+    padding: 0 50px;
 }
 
 .marketing-block-content{
@@ -785,17 +791,17 @@ ul.offer-list li:before {
 
 .footer-container{
     flex-direction: column;
-
+    padding-bottom: 30px;
 }
 
-.footer-element{
+.footer-menu{
     display: flex;
     margin: 37px 0;
     width: 100%;
     justify-content: space-between;
 }
 
-.footer-element-about{
+.footer-menu-column{
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -814,7 +820,7 @@ ul.offer-list li:before {
     line-height: 34px;
     margin-bottom: 12px;
 }
-.element-name{
+.menu-category{
     padding-bottom: 23px;
     padding-top: 37px;
     font-size: 14px;
@@ -848,21 +854,17 @@ ul.offer-list li:before {
 .footer-links-item{
     width: 16px;
     height: 16px;
-    background-image: url("../img/twitter icon.png");
     background-size: cover;
     margin-left: 15px;
 }
 
-.links-item2{
-    background-image: url("../img/f icon.png");
+.tweeter-link{
+    background-image: url("../img/twitter_icon.png");
+}
+.facebook-link{
+    background-image: url("../img/f_icon.png");
 }
 
-.links-item3{
-    background-image: url("../img/g icon.png");
-}
-
-a.btn{
-    color: black;
-    font-size: 16px;
-    font-weight: bold;
+.google-link{
+    background-image: url("../img/g_icon.png");
 }
